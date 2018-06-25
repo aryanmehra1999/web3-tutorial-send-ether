@@ -1,0 +1,20 @@
+{
+  "name": "send-ether-web3",
+  "version": "1.0.0",
+  "description": "Exchange ether between two accounts using web3 and personal blockchain (testrpc, truffle, ganache)",
+  "main": "app.js",
+  "devDependencies": {
+    "babel-preset-env": "latest",
+    "babel-cli": "^6.0.0",
+    "web3": "~0.20.1"
+  },
+  "babel": {
+    "presets": ["env"]
+  },
+  "scripts": {
+    "start": "npx babel-node app.js"
+  },
+  "author": "abhagi",
+  "license": "ISC"
+}
+
