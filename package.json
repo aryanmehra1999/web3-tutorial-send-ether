@@ -1,5 +1,5 @@
 {
-  "name": "send-ether-web3",
+  "name": "web3-tutorial-send-ether",
   "version": "1.0.0",
   "description": "Exchange ether between two accounts using web3 and personal blockchain (testrpc, truffle, ganache)",
   "main": "app.js",
