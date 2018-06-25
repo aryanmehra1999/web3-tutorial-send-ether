@@ -9,7 +9,9 @@
     "web3": "~0.20.1"
   },
   "babel": {
-    "presets": ["env"]
+    "presets": [
+      "env"
+    ]
   },
   "scripts": {
     "start": "npx babel-node app.js"
@@ -17,4 +19,3 @@
   "author": "abhagi",
   "license": "ISC"
 }
-
