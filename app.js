@@ -2,11 +2,11 @@
 
 import Web3 from 'web3';
 
-// Instance Web3 using personal Ganache chain.
-// Replace with ""http://localhost:8545" for truffle develop
+// Instantiate Web3 using personal Ganache blockchain.
+// Replace with ""http://localhost:8545" or other port number for 'truffle develop'
 const web3 = new Web3(new Web3.providers.HttpProvider("HTTP://127.0.0.1:7545"));
 
-// Print ether balances for pre-generated account
+// Print ether balances for pre-generated accounts
 const printAccountBalances = () => {
     web3.eth.accounts.forEach(account => {
         let balance = web3.eth.getBalance(account);
